@@ -64,7 +64,14 @@
 				"settings": {
 					"bundleName": "GithubSAP-UI5-Fiori-9_ResourceModel.i18n.i18n"
 				}
+			},
+			"i18n_fr": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "GithubSAP-UI5-Fiori-9_ResourceModel.i18n.i18n_fr"
+				}
 			}
+			
 		},
 		"resources": {
 			"css": [{

@@ -13,11 +13,14 @@
 							
 							<Label id="idName" text="{= ${/lang} === 'FR' ?  ${i18n_fr>LBL_fName} : ${i18n>LBL_fName}}"></Label>
 							<Input></Input>
-							<Label text="{i18n>LBL_mName}"></Label>
+							<Label text="{= ${/lang} === 'FR' ?  ${i18n_fr>LBL_mName} : ${i18n>LBL_mName}}"></Label>
 							<Input></Input>
-							<Label text="{i18n>LBL_lName}"></Label>
+							<Label text="{= ${/lang} === 'FR' ?  ${i18n_fr>LBL_lName} : ${i18n>LBL_lName}}"></Label>
 							<Input></Input>
-							<Label text="{i18n>LBL_no}"></Label>
+							<!--<Label text="{= ${/lang} === 'FR' ?  ${i18n_fr>LBL_no} : ${i18n>LBL_no}}"></Label>-->
+							<Label text="{= ${/lang} === 'FR' ?  ${i18n_fr>LBL_no} : ${i18n>LBL_no}}"></Label>
+							<Input></Input>
+							<Label text="hello"></Label>
 							<Input></Input>
 						</form:content>
 					</form:SimpleForm>
