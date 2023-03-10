@@ -5,18 +5,20 @@
 			<Page title="{i18n>title}">
 				<content>
 					
-				<form:SimpleForm id="emp">
+				<form:SimpleForm>
 						<form:content>
+							<Button text="English" press="onClickEng"></Button>
+							<Button text="French" press="onClickFr"></Button>
+							<!--<Button text="Hindi" press="onClickHin"></Button>-->
 							
-							<Label text="{i18n>LBL_fname}"></Label>
+							<Label id="idName" text="{= ${/lang} === 'FR' ?  ${i18n_fr>LBL_fName} : ${i18n>LBL_fName}}"></Label>
 							<Input></Input>
-							
-							<Label text="{i18n>LBL_lname}"></Label>
+							<Label text="{i18n>LBL_mName}"></Label>
 							<Input></Input>
-							
-							<Label text="{i18n>LBL_msg}"></Label>
-							<Input placeholder="{i18n>IN1}"></Input>
-							
+							<Label text="{i18n>LBL_lName}"></Label>
+							<Input></Input>
+							<Label text="{i18n>LBL_no}"></Label>
+							<Input></Input>
 						</form:content>
 					</form:SimpleForm>
 				</content>
